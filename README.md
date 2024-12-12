@@ -2,69 +2,69 @@
 
 # nuxt.com
 
-Welcome to the Nuxt website repository available on [nuxt.com](https://nuxt.com).
+Bine ați venit la repozitorul site-ușui Nuxt disponibile pe [nuxt.com](https://nuxt.com).
 
 [![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt.js&labelColor=020420)](https://ui.nuxt.com/pro)
 
 ## Setup
 
-Make sure to enable corepack and install the dependencies:
+Asigurați-vă că ați activat corepack și ați instalat dependențele
 
 ```bash
 corepack enable
 pnpm install
 ```
 
-Copy the `.env.example` file to `.env`:
+Copiați `.env.example` file to `.env`:
 
 ```bash
 cp .env.example .env
 ```
 
-Clone/Fork [nuxt/nuxt](https://github.com/nuxt/nuxt) repo where you want (but not in the Nuxt.com project) and inside the `docs/` directory, run:
+Clonați [nuxt/nuxt](https://github.com/nuxt/nuxt) repo unde doriți (dar nu în proiectul Nuxt.com) și în interiorul directorului `docs/`, rulați:
 
 ```bash
 pwd
 ```
 
-If you are on Windows, you can use the following command instead:
+Dacă sunteți pe Windows, puteți utiliza în schimb următoarea comandă:
 
 ```bash
 echo %cd%
 ```
 
-Copy the output of the command above and paste it in the `NUXT_DOCS_PATH` variable in the `.env` file.
+Copiați rezultatul comenzii de mai sus și lipiți-o în variabila `NUXT_DOCS_PATH` din fișierul `.env`.
 
-## Development
+## Dezvoltare
 
-Start the development server:
+Porniți serverul de dezvoltare:
 
 ```bash
 pnpm dev
 ```
 
-### Add a Nuxt Template
+### Adăugați un șablon nuxt
 
-To list a Nuxt template, add it to the list on [./content/4.templates.yml](./content/4.templates.yml).
+Pentru a enumera un șablon nuxt, adăugați-l la listă [./content/4.templates.yml](./content/4.templates.yml).
 
-Make sure to start the development server in order to generate the screenshot for the template and go to http://localhost:3000/templates to see the result.
+Asigurați-vă că ați pornit serverul de dezvoltare și accesați http://localhost:3000/templates tpentru a vedea rezultatul.
 
-If you want to update the url where we take the automated screenshot, use the `screenshotUrl` property.
+Dacă doriți să actualizați adresa URL unde luăm captura de ecran automată, utilizați proprietate `screenshotUrl`.
 
-To regenerate the image, delete the generated one in `public/assets/templates`.
+Pentru a regenera imaginea, ștergeți imaginea existentă din `public/assets/templates`.
 
-## Production
+## Producție
 
-In order to build the application for production, you need to have a [Nuxt UI Pro](https://ui.nuxt.com/pro) license and set the `NUXT_UI_PRO_LICENSE` variable in the `.env` file.
+Pentru a construi aplicația pentru producție, trebuie să aveți o licență [Nuxt UI Pro](https://ui.nuxt.com/pro) și să setați variabila `NUXT_UI_PRO_LICENSE` din fișierul `.env`.
 
-Note that this is not required to run in development and contribute to the Nuxt website or documentation.
+Rețineți că licența nu e necesară în timpul dezvoltării locale de aceea puteți contribui la dezvoltarea site-ul și a documentației Nuxt fără impedimente.
 
-Build the application for production:
+Construiți aplicația pentru producție:
 
 ```bash
 pnpm generate
 ```
 
-## License
+## Licenţă
 
-[MIT License](./LICENSE)
+[Licenţă MIT](./LICENSE)
