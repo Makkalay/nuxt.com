@@ -73,10 +73,10 @@ export const useModules = () => {
   // ]
 
   const sorts: Filter[] = [
-    { key: 'downloads', label: 'Downloads' },
-    { key: 'stars', label: 'Stars' },
-    { key: 'publishedAt', label: 'Updated' },
-    { key: 'createdAt', label: 'Created' }
+    { key: 'downloads', label: 'Descărcări' },
+    { key: 'stars', label: 'Stele' },
+    { key: 'publishedAt', label: 'Actualizat' },
+    { key: 'createdAt', label: 'Creat' }
   ]
 
   const orders: Filter[] = [
@@ -85,9 +85,9 @@ export const useModules = () => {
   ]
 
   // const typesMap: TypeMap = {
-  //   official: 'Official',
-  //   community: 'Community',
-  //   '3rd-party': 'Third Party'
+  //   official: 'Oficial',
+  //   community: 'Comunitate',
+  //   '3rd-party': 'Terț'
   // }
 
   // const modulesByVersion: ComputedRef<Module[]> = computed(() => {
@@ -206,7 +206,7 @@ export const useModules = () => {
   // const links = computed(() => {
   //   return [
   //     {
-  //       label: 'All',
+  //       label: 'Toate',
   //       _path: {
   //         name: 'modules',
   //         query: {

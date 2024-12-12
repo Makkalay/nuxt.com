@@ -7,7 +7,7 @@ const props = defineProps<{
 const { copy } = useCopyToClipboard()
 
 function copyLink() {
-  copy(props.background, { title: 'Copied to clipboard' })
+  copy(props.background, { title: 'Copiat în clipboard' })
 }
 </script>
 
@@ -19,7 +19,7 @@ function copyLink() {
       <h5 class="font-semibold text-gray-900 dark:text-white text-base">
         {{ name }}
       </h5>
-      <UButton variant="link" label="Copy" size="sm" @click="copyLink" />
+      <UButton variant="link" label="Copie" size="sm" @click="copyLink" />
     </div>
     <p class="text-gray-500 dark:text-gray-400 text-sm">
       {{ background }}

@@ -1,6 +1,6 @@
 <template>
   <Alert
-    title="Warning"
+    title="Avertizare"
     icon="i-ph-warning"
     color="amber"
     class="_warning"

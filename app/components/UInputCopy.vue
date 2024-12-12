@@ -27,7 +27,7 @@ const { copy, copied } = useClipboard()
           variant="link"
           :padded="false"
           :class="{ 'text-green-500 hover:text-green-500 dark:text-green-400 hover:dark:text-green-400': copied }"
-          aria-label="copy button"
+          aria-label="buton de copiere"
           @click="copy(value)"
         />
       </template>

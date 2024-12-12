@@ -1,18 +1,18 @@
-title: The Nuxt Newsletter
-head.title: Nuxt Newsletter
-description: 'Get the latest releases and news about Nuxt and its ecosystem with our newsletter.'
+title: Buletinul informativ Nuxt
+head.title: Buletin informativ Nuxt
+description: 'Obțineți cele mai recente versiuni și știri despre Nuxt și ecosistemul său cu newsletter-ul nostru.'
 navigation: false
 align: 'center'
 cta:
-  headline: Getting Started
-  title: Start your Nuxt Journey
-  description: Learn everything you need to know, from beginner to master.
+  headline: Să începem
+  title: Începeți-vă călătoria Nuxt
+  description: Aflați tot ce trebuie să știți, de la incepator pana la maestru.
   links:
-    - label: 'Get started'
+    - label: 'Începeți'
       size: 'lg'
       color: 'black'
       to: '/docs/getting-started/introduction'
-    - label: 'Explore examples'
+    - label: 'Explorați exemple'
       size: 'lg'
       color: 'white'
       to: '/docs/examples'

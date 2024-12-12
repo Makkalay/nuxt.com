@@ -6,152 +6,152 @@ const _useNavigation = () => {
     const route = useRoute()
 
     return [{
-      label: 'Docs',
+      label: 'Documente',
       icon: 'i-ph-book-bookmark',
       to: '/docs',
       search: false,
       children: [{
-        label: 'Get Started',
-        description: 'Learn how to get started with Nuxt.',
+        label: 'Începeți',
+        description: 'Aflați cum să începeți cu Nuxt.',
         icon: 'i-ph-rocket-launch',
         to: '/docs/getting-started',
         active: route.path.startsWith('/docs/getting-started')
       }, {
-        label: 'Guide',
-        description: 'Learn how to build and deploy Nuxt applications.',
+        label: 'Ghid',
+        description: 'Aflați cum să construiți și să implementați aplicații Nuxt.',
         icon: 'i-ph-book-open',
         to: '/docs/guide',
         active: route.path.startsWith('/docs/guide')
       }, {
         label: 'API',
-        description: 'Explore the Nuxt API.',
+        description: 'Explorați API-ul Nuxt.',
         icon: 'i-ph-code',
         to: '/docs/api',
         active: route.path.startsWith('/docs/api')
       }, {
-        label: 'Examples',
-        description: 'Discover and explore official and community examples.',
+        label: 'Exemple',
+        description: 'Descoperiți și explorați exemple oficiale și comunitare.',
         icon: 'i-ph-app-window',
         to: '/docs/examples',
         active: route.path.startsWith('/docs/examples')
       }, {
-        label: 'Community',
-        description: 'Find answers and support from the community.',
+        label: 'Comunitate',
+        description: 'Găsiți răspunsuri și sprijin din partea comunității.',
         icon: 'i-ph-chats-teardrop',
         to: '/docs/community',
         active: route.path.startsWith('/docs/community')
       }]
     }, {
-      label: 'Integrations',
+      label: 'Integrări',
       to: '/modules',
       icon: 'i-ph-plugs-connected',
       search: false,
       active: route.path.startsWith('/modules') || route.path.startsWith('/deploy'),
       children: [{
-        label: 'Modules',
-        description: 'Supercharge your Nuxt project with modules.',
+        label: 'Module',
+        description: 'Supraîncărcați-vă proiectul Nuxt cu module.',
         icon: 'i-ph-puzzle-piece',
         to: '/modules'
       }, {
         label: 'Hosting',
-        description: 'Deploy your Nuxt project anywhere.',
+        description: 'Implementați-vă proiectul Nuxt oriunde.',
         icon: 'i-ph-rocket-launch',
         to: '/deploy'
       }]
     }, {
-      label: 'Resources',
+      label: 'Resurse',
       icon: 'i-ph-books',
       to: '/templates',
       search: false,
       active: route.path.startsWith('/templates') || route.path.startsWith('/video-courses'),
       children: [{
-        label: 'Templates',
+        label: 'Șabloane',
         icon: 'i-ph-browsers',
-        description: 'Start your next project with a Nuxt template.',
+        description: 'Începeți următorul proiect cu un șablon nuxt.',
         to: '/templates'
       }, {
-        label: 'Video Courses',
-        description: 'Learn Nuxt by watching video courses.',
+        label: 'Cursuri video',
+        description: 'Aflați nuxt urmărind cursuri video.',
         icon: 'i-ph-graduation-cap',
         to: '/video-courses'
       }, {
-        label: 'Showcase',
-        description: 'Discover and explore projects built with Nuxt.',
+        label: 'Vitrină',
+        description: 'Descoperiți și explorați proiecte construite cu nuxt.',
         icon: 'i-ph-projector-screen',
         to: '/showcase'
       }, {
-        label: 'Nuxt Certification',
-        description: 'Obtain your Certification of Competence.',
+        label: 'Certificare Nuxt',
+        description: 'Obțineți certificarea dvs. de competență.',
         icon: 'i-ph-medal',
         to: 'https://certification.nuxt.com',
         target: '_blank'
       }]
     }, {
-      label: 'Products',
+      label: 'Produse',
       icon: 'i-ph-sparkle',
       search: false,
       children: [{
         label: 'Nuxt UI Pro',
         to: 'https://ui.nuxt.com/pro?utm_source=nuxt-website&utm_medium=header',
-        description: 'Premium Vue components for Nuxt.',
+        description: 'Componente premium Vue pentru nuxt.',
         icon: 'i-ph-layout',
         target: '_blank'
       }, {
-        label: 'Nuxt Studio',
+        label: 'NuxtStudio',
         to: 'https://nuxt.studio/?utm_source=nuxt-website&utm_medium=header',
-        description: 'The Git-based CMS for Nuxt.',
+        description: 'CMS bazat pe Git pentru nuxt.',
         icon: 'i-ph-pen',
         target: '_blank'
       }, {
         label: 'NuxtHub',
         to: 'https://hub.nuxt.com/?utm_source=nuxt-website&utm_medium=header',
-        description: 'Build, deploy & manage Nuxt apps that scale.',
+        description: 'Construiți, implementați și gestionați aplicațiile Nuxt cu potențial de creștere.',
         icon: 'i-ph-rocket-launch',
         target: '_blank'
       }]
     }, {
-      label: 'Services',
+      label: 'Servicii',
       icon: 'i-ph-buildings',
       to: '/enterprise',
       search: false,
       children: [{
-        label: 'Support',
+        label: 'Suport',
         to: '/enterprise/support',
-        description: 'Professional support by Nuxt experts.',
+        description: 'Suport profesional al experților Nuxt.',
         icon: 'i-ph-lifebuoy'
       }, {
-        label: 'Agencies',
+        label: 'Agenții',
         to: '/enterprise/agencies',
-        description: 'Agencies specialized in Nuxt development.',
+        description: 'Agenții specializate în dezvoltarea Nuxt.',
         icon: 'i-ph-handshake'
       }, {
-        label: 'Sponsors',
+        label: 'sponsori',
         to: '/enterprise/sponsors',
-        description: 'Help us sustain Nuxt development.',
+        description: 'Ajută-ne să susținem dezvoltarea Nuxt.',
         icon: 'i-ph-hand-heart'
       }]
     }, {
-      label: 'Blog',
+      label: 'blog',
       icon: 'i-ph-newspaper',
       to: '/blog'
     }]
   })
 
   const footerLinks = [{
-    label: 'Community',
+    label: 'Comunitate',
     children: [{
-      label: 'Nuxters',
+      label: 'Nuxteri',
       to: 'https://nuxters.nuxt.com',
       target: '_blank'
     }, {
-      label: 'Team',
+      label: 'Echipă',
       to: '/team'
     }, {
-      label: 'Design Kit',
+      label: 'Kit de proiectare',
       to: '/design-kit'
     }]
   }, {
-    label: 'Products',
+    label: 'Produse',
     children: [{
       label: 'Nuxt UI Pro',
       to: 'https://ui.nuxt.com/pro?utm_source=nuxt-website&utm_medium=footer',
@@ -166,22 +166,22 @@ const _useNavigation = () => {
       target: '_blank'
     }]
   }, {
-    label: 'Enterprise',
+    label: 'Întreprindere',
     children: [{
-      label: 'Support',
+      label: 'Suport',
       to: '/enterprise/support'
     }, {
-      label: 'Agencies',
+      label: 'Agenții',
       to: '/enterprise/agencies'
     }, {
-      label: 'Sponsors',
+      label: 'Sponsori',
       to: '/enterprise/sponsors'
     }]
   }]
 
   const searchLinks = computed(() => [
     {
-      label: 'Ask AI',
+      label: 'Întrebați IA',
       icon: 'i-ph-magic-wand',
       to: 'javascript:void(0);',
       // @ts-expect-error this is not typed
@@ -199,22 +199,22 @@ const _useNavigation = () => {
 
       return link
     }).filter(Boolean), {
-      label: 'Team',
+      label: 'Echipă',
       icon: 'i-ph-users',
       to: '/team'
     }, {
-      label: 'Design Kit',
+      label: 'Kit de proiectare',
       icon: 'i-ph-palette',
       to: '/design-kit'
     }, {
-      label: 'Newsletter',
+      label: 'Buletin informativ',
       icon: 'i-ph-envelope-simple',
       to: '/newsletter'
     }])
 
   const searchGroups = [{
     key: 'ask-ai-search',
-    label: 'AI',
+    label: 'IA',
     icon: 'i-ph-magic-wand',
     search: async (q) => {
       if (!q) {
@@ -222,7 +222,7 @@ const _useNavigation = () => {
       }
 
       return [{
-        label: `Ask AI about "${q}"`,
+        label: `Întrebați IA despre "${q}"`,
         icon: 'i-ph-magic-wand',
         to: 'javascript:void(0);',
         click() {
@@ -232,7 +232,7 @@ const _useNavigation = () => {
     }
   }, {
     key: 'modules-search',
-    label: 'Modules',
+    label: 'Module',
     search: async (q) => {
       if (!q) {
         return []
@@ -260,7 +260,7 @@ const _useNavigation = () => {
     }
   }, {
     key: 'hosting-search',
-    label: 'Hosting',
+    label: 'Găzduire',
     search: async (q) => {
       if (!q) {
         return []
@@ -288,7 +288,7 @@ const _useNavigation = () => {
     }
   }, {
     key: 'articles-search',
-    label: 'Articles',
+    label: 'Articole',
     search: async (q) => {
       if (!q) {
         return []

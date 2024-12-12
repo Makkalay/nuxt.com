@@ -36,18 +36,18 @@ const mobileNav = computed(() => {
 const open = ref(false)
 const dropdownItems = [
   [{
-    label: 'Copy logo as SVG',
+    label: 'Copiați logo-ul ca SVG',
     icon: 'i-simple-icons-nuxtdotjs',
-    click: () => copy(logo.value.$el.outerHTML, { title: 'Copied to clipboard' })
+    click: () => copy(logo.value.$el.outerHTML, { title: 'Copiat în clipboard' })
   },
   {
-    label: 'Nuxt Brand Kit',
+    label: 'Kit de marcă Nuxt',
     icon: 'i-simple-icons-figma',
     to: 'https://www.figma.com/community/file/1296154408275753939/nuxt-brand-kit',
     target: '_blank'
   }],
   [{
-    label: 'Browse Design Kit',
+    label: 'Căutați kit de design',
     icon: 'i-ph-shapes',
     to: '/design-kit'
   }]
@@ -83,7 +83,7 @@ defineProps<{
         <NuxtLink to="/" class="flex gap-2 items-end">
           <NuxtLogo ref="logo" class="block w-auto h-6" @click.right.prevent="openLogoContext" @click.left.prevent="navigateTo('/')" />
 
-          <UTooltip v-if="version" :text="`Latest release: v${stats.version}`">
+          <UTooltip v-if="version" :text="`Ultima versiune: v${stats.version}`">
             <UBadge variant="subtle" size="xs" class="-mb-[2px] rounded font-semibold">
               v{{ version }}
             </UBadge>
@@ -108,15 +108,15 @@ defineProps<{
     </template>
 
     <template #right>
-      <UTooltip text="Search" :shortcuts="[metaSymbol, 'K']">
+      <UTooltip text="Căutare" :shortcuts="[metaSymbol, 'K']">
         <UContentSearchButton :label="null" />
       </UTooltip>
 
-      <UTooltip :text="$colorMode.preference === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'">
+      <UTooltip :text="$colorMode.preference === 'dark' ? 'Treceți la modul luminos' : 'Treceți la modul întunecat'">
         <UColorModeButton />
       </UTooltip>
 
-      <UTooltip text="GitHub Stars">
+      <UTooltip text="Stelele Github">
         <UButton
           icon="i-simple-icons-github"
           to="https://go.nuxt.com/github"

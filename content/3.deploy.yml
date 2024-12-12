@@ -1,10 +1,10 @@
-navigation.title: Deploy
-title: Deploy a Nuxt App
-description: Discover the different ways to deploy your Nuxt project on different hosting providers.
+navigation.title: Desfăşurare
+title: Desfăşurarea aplicațiilor Nuxt
+description: Descoperiți toate modalități de desfăşura proiectul dvs. Nuxt utilizînd diferiți furnizori de găzduire.
 navigation.icon: i-ph-rocket-launch
 align: center
 links:
-  - label: 'Deployment Guide'
+  - label: 'Ghid de desfăşurare'
     icon: i-ph-cloud
     to: '/docs/getting-started/deployment'
     color: black

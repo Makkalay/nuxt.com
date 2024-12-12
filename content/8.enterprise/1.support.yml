@@ -1,12 +1,12 @@
-title: 'Nuxt Professional Service'
-navigation.title: 'Support'
-description: 'Get professional support by the Nuxt experts to optimize your site performance and overcome any challenge'
-head.title: 'Nuxt professional services'
-head.description: 'Vue and Nuxt professional support and consulting services by the creators and maintainers of Vue and Nuxt for code audit and performance optimization.'
+title: 'Servicii profesionale Nuxt'
+navigation.title: 'Sprijin'
+description: 'Obțineți sprijin profesional de la experții Nuxt pentru a optimiza performanța site-ului dvs. și pentru a depăși orice provocare'
+head.title: 'Servicii profesionale Nuxt'
+head.description: 'Servicii de asistență profesională și consultanță profesională Vue și Nuxt de către creatorii și întreținătorii Vue și Nuxt pentru auditul codului și optimizarea performanței.'
 navigation.icon: i-ph-lifebuoy
 hero:
   links:
-  - label: Talk to an expert
+  - label: Vorbește cu un expert
     color: black
     to: 'https://calendly.com/ferdinand-nuxt/nuxtlabs-ferdinand'
     size: sm
@@ -68,24 +68,24 @@ logos:
     height: '89'
     alt: 'realtruck logo'
 service:
-  title: Our services
-  description: We provide expertise and guidance to companies using Vue and Nuxt, including assistance with project architecture, performance optimization, best practices, and troubleshooting.
+  title: Serviciile noastre
+  description: Oferim expertiză și îndrumare companiilor care folosesc Vue și Nuxt, inclusiv asistența cu arhitectura proiectului, optimizarea performanței, cele mai bune practici și depanarea.
   services:
     - icon: i-ph-chart-line
-      title: Performance optimizations
-      description: Optimize your Nuxt application with tailored recommendations to make it faster and more reliable than ever.
+      title: Optimizări de performanță
+      description: Optimizați-vă aplicația Nuxt cu recomandări adaptate pentru a o face mai rapidă și mai fiabilă ca niciodată.
     - icon: i-ph-code
-      title: Migration to Nuxt
-      description: Make any migration project a successful and painless experience from the first steps to the deployment.
+      title: Migrare către Nuxt
+      description: Faceți din orice proiect de migrație o experiență de succes și nedureroasă de la primii pași până la desfășurare.
     - icon: i-ph-rocket-launch
-      title: Nuxt Workshop
-      description: Bring your team’s skills to the expert level with custom workshops session and continuous support.
+      title: Atelier Nuxt
+      description: Aduceți abilitățile echipei dvs. la nivel de experți cu sesiune de ateliere personalizate și sprijin continuu.
     - icon: i-ph-pencil-ruler
-      title: Custom services
-      description: Tell us what you’re looking for and we’ll find the most effective way to help you achieve your goals.
+      title: Servicii personalizate
+      description: Spuneți-ne ce căutați și vom găsi cea mai eficientă modalitate de a vă ajuta să vă atingeți obiectivele.
 expertise:
-  title: 'The highest level of expertise'
-  description: 'The Nuxt experts are Vue, Nuxt and Vite core team members or chosen contributors.'
+  title: 'Cel mai înalt nivel de expertiză'
+  description: 'Experții Nuxt sunt membrii echipei Vue, Nuxt și Vite Core sau contribuabili aleși.'
   logos:
     - src: '/assets/enterprise/support/nuxt.svg'
       width: 32
@@ -108,12 +108,12 @@ expertise:
       color: '#42b883'
       alt: 'vue logo'
 testimonials:
-  title: 'What our clients say'
-  description: 'Hear from our clients about how our consulting services have transformed their projects and boosted their performance.'
+  title: 'Ce spun clienții noștri'
+  description: 'Aflați de la clienții noștri despre modul în care serviciile noastre de consultanță le-au transformat proiectele și le-au sporit performanța.'
   items:
-    - quote: "“I'd highly recommend their services for anyone looking into Nuxt, to ensure you get all the benefits that it can provide and make sure your team follow all the best practice design patterns.“"
+    - quote: "“Aș recomanda cu mare drag serviciile lor pentru oricine se uită la Nuxt, pentru a vă asigura că obțineți toate avantajele pe care le poate oferi și asigurați-vă că echipa dvs. urmează toate cele mai bune practici de proiectare.“"
       author: 'James Baddiley'
-      job: 'CEO/CTO @ Chillisauce'
+      job: 'ceo/cto @ Chillisauce'
       logo:
         light: '/assets/enterprise/support/light/chillisauce.svg'
         dark: '/assets/enterprise/support/dark/chillisauce.svg'
@@ -121,15 +121,15 @@ testimonials:
         width: 134
         height: 28
       achievements:
-        - label: 'Migration to Nuxt'
+        - label: 'Migrația către Nuxt'
           color: 'blue'
-        - label: 'Performance optimization'
+        - label: 'Optimizarea performanței'
           color: 'orange'
-        - label: 'Long-term support'
+        - label: 'Sprijin pe termen lung'
           color: 'yellow'
-    - quote: "“Choosing NuxtLabs for an audit of our Nuxt project was a game-changer. Their detailed insights significantly enhanced our site's performance and the quality of our code. We're grateful for their support and highly recommend them to others.“"
+    - quote: "“Alegerea echipei NuxtLabs pentru un audit al proiectului nostru Nuxt a un pass decisiv. Ideile lor detaliate au îmbunătățit semnificativ performanța site-ului nostru și calitatea codului nostru. Suntem recunoscători pentru sprijinul acordat și îi recomandăm cu mare încredere altora.“"
       author: 'Melene Ulm'
-      job: 'Web Developer @ Mobile Industrial Robots'
+      job: 'Dezvoltator web @ Mobile Industrial Robots'
       logo:
         light: '/assets/enterprise/support/light/mir.svg'
         dark: '/assets/enterprise/support/dark/mir.svg'
@@ -137,15 +137,15 @@ testimonials:
         width: 54
         height: 24
       achievements:
-        - label: 'Codebase audit'
+        - label: 'Audit Codebase'
           color: 'pink'
-        - label: 'Performance optimization'
+        - label: 'Optimizarea performanței'
           color: 'orange'
-        - label: 'Long-term support'
+        - label: 'Sprijin pe termen lung'
           color: 'yellow'
-    - quote: "“The expert provided us with valuable feedback, which included improvements on how we can utilize Nuxt and the ecosystem more effectively, raising questions about the background of historic implementation and finding bugs that we did not yet catch.“"
+    - quote: "“Expertul ne-a oferit un feedback valoros, care a inclus îmbunătățiri cu privire la modul în care putem utiliza mai eficient Nuxt și ecosistemul dat în general, ridicând întrebări despre implementarea dejarealizată și găsirea unor erori pe care nu le-am prins încă.“"
       author: 'Robert K Pauls'
-      job: 'Lead dev at @ ABOUT YOU group'
+      job: 'Conduceți dev la @ ABOUT YOU group'
       logo:
         light: '/assets/enterprise/support/light/about-you.svg'
         dark: '/assets/enterprise/support/dark/about-you.svg'
@@ -153,13 +153,13 @@ testimonials:
         width: 120
         height: 24
       achievements:
-        - label: 'Performance optimization'
+        - label: 'Optimizarea performanței'
           color: 'orange'
-        - label: 'Codebase audit'
+        - label: 'Codebase de audit'
           color: 'pink'
-    - quote: "“They provided excellent feedback on how to make the core of our app more efficient as well some very valuable tips for the features we are planing to implement in the near future.“"
+    - quote: "“Aceștia au oferit feedback excelent cu privire la modul de a face nucleul aplicației noastre mai eficient, precum și câteva sfaturi foarte valoroase pentru funcțiile pe care intenționăm să le implementăm în viitorul apropiat.“"
       author: 'Maxime Casadei'
-      job: 'CEO at @NAKWEB for Otypo'
+      job: 'CEO la @NAKWEB for Otypo'
       width: 80
       height: 20
       logo:
@@ -167,15 +167,15 @@ testimonials:
         dark: '/assets/enterprise/support/dark/otypo.svg'
         alt: 'otypo logo'
       achievements:
-        - label: 'Migration to Nuxt'
+        - label: 'Migrația către Nuxt'
           color: 'blue'
-        - label: 'Performance optimizations'
+        - label: 'Optimizări de performanță'
           color: 'orange'
-        - label: 'Codebase audit'
+        - label: 'Audit Codebase'
           color: 'pink'
-    - quote: "“NuxtLabs was amazing to work with. They found hidden opportunities buried deep within our codebase. Our enterprise application is now faster, more secure and reliable than ever!“"
+    - quote: "“A fost uimitor de a lucra cu NuxtLabs. Au găsit oportunități ascunse îngropate adânc în cadrul bazei noastre de cod. Aplicația noastră pentru întreprinderi este acum mai rapidă, sigură și fiabilă ca niciodată!“"
       author: 'Josh Deltener'
-      job: 'Director of software engineering @ RealTruck.com'
+      job: 'Director de inginerie software @ RealTruck.com'
       logo:
         light: '/assets/enterprise/support/light/realtruck.svg'
         dark: '/assets/enterprise/support/dark/realtruck.svg'
@@ -183,44 +183,44 @@ testimonials:
         width: 140
         height: 30
       achievements:
-        - label: 'Migration to Nuxt'
+        - label: 'Migrația către Nuxt'
           color: 'blue'
-        - label: 'Performance optimizations'
+        - label: 'Optimizări de performanță'
           color: 'orange'
-        - label: 'Codebase audit'
+        - label: 'Audit Codebase'
           color: 'pink'
 project:
-  title: 'How do we proceed?'
-  description: "3 easy steps to get professionnal support and consulting services from a Vue & Nuxt expert."
+  title: 'Cum procedăm?'
+  description: "3 pași simpli pentru a obține servicii de asistență profesională și consultanță de la un expert Vue și Nuxt."
   steps:
-    - title: 'Introduction meeting'
-      description: "This first meeting is dedicated to gather as much information as possible about your needs and context, for us to determine the right service by the right expert."
+    - title: 'Întâlnire de introducere'
+      description: "Această primă întâlnire este dedicată să adune cât mai multe informații despre nevoile și contextul dvs., pentru ca noi să determinăm serviciul potrivit de către expertul potrivit."
       number: 1
-    - title: 'A quote suited to your needs'
-      description: "Based on the information you provided and from previous similar consulting engagements, we will present a custom quote to answer your demand."
+    - title: 'O ofertă care se potrivește nevoilor tale'
+      description: "Pe baza informațiilor pe care le-ați furnizat și din angajamentele anterioare de consultanță similare, vom prezenta o ofertă pentru a răspunde la cererea dvs."
       number: 2
-    - title: 'Nuxt Expert onboarding'
-      description: "Once an agreement is reached, the expert will be introduced to your team to start performing the consulting engagement."
+    - title: 'Expert Nuxt integrat'
+      description: "Odată încheiat un acord, expertul va fi prezentat echipei dvs. pentru a începe să efectueze angajamentul de consultanță."
       number: 3
 form:
-  title: 'Get in Touch with Us'
-  description: "Have questions or need assistance? Fill out the form below, and we'll get back to you as soon as possible."
+  title: 'Luați legătura cu noi'
+  description: "Aveți întrebări sau aveți nevoie de asistență? Completați formularul de mai jos și vă vom contacta cât mai curând posibil."
   name:
-    label: 'Name'
+    label: 'Nume'
     placeholder: 'John Doe'
   email:
-    label: 'Company Email'
+    label: 'E-mail al companiei'
     placeholder: 'you@example.com'
   company:
-    label: 'Company'
-    placeholder: 'Your company name'
+    label: 'Companie'
+    placeholder: 'Numele companiei dvs.'
   link:
-    label: 'Useful link'
+    label: 'Link util'
     placeholder: 'www.nuxt.com'
   body:
-    label: 'What can we help you achieve?'
-    placeholder: 'Tell us how we can help you'
-  info: 'By submitting this form, I confirm that I have read and understood the <a class="text-gray-950 dark:text-gray-100 underline font-medium">Nuxt Privacy Statement.</a>'
+    label: 'Ce doriți să obțineți?'
+    placeholder: 'Spune-ne cum te putem ajuta'
+  info: 'Prin trimiterea acestui formular, confirm că am citit și am înțeles <a class = "text-gray-950 Dark: Text-gray-100 subliniați font-mediu"> Declarație de confidențialitate Nuxt. </a>'
   button:
     icon: i-ph-paper-plane-right
-    label: 'Send message'
+    label: 'Trimite mesaj'

@@ -1,10 +1,10 @@
-title: Explore Nuxt Jobs
-description: Browse available openings for coding with Vue and Nuxt all over the world.
-navigation.title: Jobs
-head.title: Nuxt Jobs
+title: Explorați joburile Nuxt
+description: Decoperiți posturile disponibile pentru programatori Vue și Nuxt din întreaga lume.
+navigation.title: Locuri de muncă
+head.title: Locuri de muncă Nuxt
 navigation.icon: i-ph-briefcase
 links:
-  - label: 'Post a job'
+  - label: 'Postează un loc de muncă'
     to: 'https://vuejobs.com/jobs/create'
     color: black
     size: 'lg'

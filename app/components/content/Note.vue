@@ -1,6 +1,6 @@
 <template>
   <Alert
-    title="Note"
+    title="Notă"
     icon="i-ph-info"
     color="blue"
     class="_note"

@@ -2,11 +2,11 @@
 defineProps({
   label: {
     type: String,
-    default: 'Subscribe to our newsletter'
+    default: 'Abonați-vă la newsletter-ul nostru'
   },
   description: {
     type: String,
-    default: 'Stay updated on new releases and features, guides, and community updates.'
+    default: 'Rămâneți la curent cu noile versiuni și funcții, ghiduri și actualizări ale comunității.'
   }
 })
 
@@ -25,12 +25,12 @@ function onSubmit() {
     method: 'POST',
     body: { email: email.value }
   }).then(() => {
-    toast.add({ title: 'Subscription pending', description: 'Please check your emails to confirm your subscription.', color: 'green' })
+    toast.add({ title: 'Abonament în așteptare', description: 'Vă rugăm să verificați e-mailul pentru a vă confirma abonamentul.', color: 'green' })
     email.value = ''
   }).catch((err) => {
     const error = JSON.parse(err.data?.message)
-    const description = error[0].message || 'Something went wrong. Please try again later.'
-    toast.add({ title: 'Subscription failed', description, color: 'red' })
+    const description = error[0].message || 'Ceva nu a mers bine. Vă rugăm să încercați din nou mai târziu.'
+    toast.add({ title: 'Abonamentul a eșuat', description, color: 'red' })
   }).finally(() => {
     loading.value = false
   })
@@ -50,7 +50,7 @@ function onSubmit() {
         class="max-w-sm"
       >
         <template #trailing>
-          <UButton type="submit" size="xs" color="black" :label="loading ? 'Subscribing' : 'Subscribe'" :loading="loading" />
+          <UButton type="submit" size="xs" color="black" :label="loading ? 'Abonare' : 'Abonați-vă'" :loading="loading" />
         </template>
       </UInput>
     </UFormGroup>

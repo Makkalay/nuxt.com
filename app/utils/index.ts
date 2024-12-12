@@ -19,25 +19,25 @@ export const formatDateByLocale = (locale, d) => {
 export const toRelativeDate = (date) => {
   const diff = Math.floor((new Date().getTime() - new Date(date).getTime()) / 1000)
   if (diff < 60) {
-    return 'just now'
+    return 'chiar acum'
   }
   else if (diff < 3600) {
-    return `${Math.floor(diff / 60)} minutes ago`
+    return `${Math.floor(diff / 60)} minute în urmă`
   }
   else if (diff < 86400) {
-    return `${Math.floor(diff / 3600)} hours ago`
+    return `${Math.floor(diff / 3600)} ore în urmă`
   }
   else if (diff < 604800) {
-    return `${Math.floor(diff / 86400)} days ago`
+    return `${Math.floor(diff / 86400)} zile în urmă`
   }
   else if (diff < 2592000) {
-    return `${Math.floor(diff / 604800)} weeks ago`
+    return `${Math.floor(diff / 604800)} săptămâni în urmă`
   }
   else if (diff < 31536000) {
-    return `${Math.floor(diff / 2592000)} months ago`
+    return `${Math.floor(diff / 2592000)} luni în urmă`
   }
   else {
-    return `${Math.floor(diff / 31536000)} years ago`
+    return `${Math.floor(diff / 31536000)} ani în urmă`
   }
 }
 
@@ -47,7 +47,7 @@ export const random = (arr: Array<any>) => {
   return arr[Math.floor(Math.random() * arr.length)]
 }
 
-export const createBreadcrumb = (link: string = 'Missing link') => {
+export const createBreadcrumb = (link: string = 'Link lipsă') => {
   if (link.startsWith('http')) {
     return link
   }

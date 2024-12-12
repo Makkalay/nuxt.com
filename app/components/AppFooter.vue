@@ -20,17 +20,17 @@ const { footerLinks } = useNavigation()
     <template #left>
       <p class="text-gray-500 dark:text-gray-400 text-sm">
         Copyright © 2016-{{ new Date().getFullYear() }} Nuxt - <NuxtLink class="hover:underline" to="https://go.nuxt.com/license" target="_blank">
-          MIT License
+          Licența MIT
         </NuxtLink>
       </p>
     </template>
 
     <template #right>
-      <UButton aria-label="Nuxt on X" to="https://go.nuxt.com/x" target="_blank" icon="i-simple-icons-x" v-bind="($ui.button.secondary as any)" />
-      <UButton aria-label="Nuxt on BlueSky" to="https://go.nuxt.com/bluesky" target="_blank" icon="i-simple-icons-bluesky" v-bind="($ui.button.secondary as any)" />
-      <UButton aria-label="Nuxt on LinkedIn" to="https://go.nuxt.com/linkedin" target="_blank" icon="i-simple-icons-linkedin" v-bind="($ui.button.secondary as any)" />
-      <UButton aria-label="Nuxt on Discord" to="https://go.nuxt.com/discord" target="_blank" icon="i-simple-icons-discord" v-bind="($ui.button.secondary as any)" />
-      <UButton aria-label="Nuxt on GitHub" to="https://go.nuxt.com/github" target="_blank" icon="i-simple-icons-github" v-bind="($ui.button.secondary as any)" />
+      <UButton aria-label="Nuxt pe x" to="https://go.nuxt.com/x" target="_blank" icon="i-simple-icons-x" v-bind="($ui.button.secondary as any)" />
+      <UButton aria-label="Nuxt pe BlueSky" to="https://go.nuxt.com/bluesky" target="_blank" icon="i-simple-icons-bluesky" v-bind="($ui.button.secondary as any)" />
+      <UButton aria-label="Nuxt pe LinkedIn" to="https://go.nuxt.com/linkedin" target="_blank" icon="i-simple-icons-linkedin" v-bind="($ui.button.secondary as any)" />
+      <UButton aria-label="Nuxt pe Discord" to="https://go.nuxt.com/discord" target="_blank" icon="i-simple-icons-discord" v-bind="($ui.button.secondary as any)" />
+      <UButton aria-label="Nuxt pe GitHub" to="https://go.nuxt.com/github" target="_blank" icon="i-simple-icons-github" v-bind="($ui.button.secondary as any)" />
     </template>
   </UFooter>
 </template>

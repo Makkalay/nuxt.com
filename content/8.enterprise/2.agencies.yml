@@ -1,12 +1,12 @@
-title: Nuxt Agencies
-navigation.title: Agencies
-description: Are you looking for a trusted partner with a strong expertise in Nuxt development? Consult our agency partner catalog and find an agency near you with the right set of skills.
-head.title: Nuxt Partner Agencies
-head.description: Consult our agency partner catalog and find an agency near you with the right set of skills.
+title: Agenții Nuxt
+navigation.title: Agenții
+description: Căutați un partener de încredere, cu o expertiză puternică în dezvoltare a aplicațiilor Nuxt? Consultați catalogul agențiilor partenere și găsiți o agenție cu setul potrivit de abilități în regiunea dvs.
+head.title: Agenții partenere Nuxt
+head.description: Consultați catalogul partenerului nostru de agenție și găsiți o agenție lângă dvs. cu setul potrivit de abilități.
 navigation.icon: i-ph-handshake
 align: center
 links:
-  - label: 'Submit my agency'
+  - label: 'Trimiteți agenția dvs.'
     to: 'https://docs.google.com/forms/d/e/1FAIpQLSf85qskit5QqmGJcruGkGF0U7240Bh9MeN0pHB18UiOMWC8dA/viewform'
     color: black
     size: 'sm'

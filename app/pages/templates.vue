@@ -107,7 +107,7 @@ defineOgImageComponent('Docs')
                 target="_blank"
                 :to="template.purchase"
                 color="gray"
-                label="Purchase"
+                label="Procură"
                 icon="i-ph-credit-card"
                 size="sm"
                 class="w-1/2 justify-center"

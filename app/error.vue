@@ -3,8 +3,8 @@ import type { ParsedContent } from '@nuxt/content'
 import type { NuxtError } from '#app'
 
 useSeoMeta({
-  title: 'Page not found',
-  description: 'We are sorry but this page could not be found.'
+  title: 'Pagina nu a fost găsită',
+  description: 'Ne pare rău, dar această pagină nu a putut fi găsită.'
 })
 
 defineProps<{ error: NuxtError }>()

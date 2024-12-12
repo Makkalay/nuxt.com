@@ -15,7 +15,7 @@ const { data: files } = useLazyFetch<ParsedContent[]>('/api/search.json', {
 })
 
 useHead({
-  titleTemplate: title => title ? `${title} · Nuxt` : 'Nuxt: The Intuitive Web Framework',
+  titleTemplate: title => title ? `${title} · Nuxt` : 'Nuxt: Cadrul web intuitiv',
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     { key: 'theme-color', name: 'theme-color', content: color }
@@ -75,12 +75,12 @@ onMounted(() => {
           class="w-5 h-5 flex-shrink-0 pointer-events-none hidden md:inline-flex"
         />
         <span>
-          Don't miss <span class="font-semibold">Vue.js Amsterdam</span> <span class="lg:hidden">in March </span>2025!
-          <span class="hidden lg:inline">Join 1000+ Vue developers this March and <span class="font-semibold">save 10% with code NUXT</span>.</span>
-          <span class="lg:hidden">Save 10% with code NUXT.</span>
+          Nu ratați <span class="font-semibold">Vue.js amsterdam</span> <span class="lg:hidden">în martie </span>2025!
+          <span class="hidden lg:inline">Alăturați-vă celor 1000+ dezvoltatori Vue în luna martie și <span class="font-semibold">economisiți 10% cu codul Nuxt</span>.</span>
+          <span class="lg:hidden">Economisiți 10% cu codul Nuxt.</span>
         </span>
         <UButton
-          label="Get your ticket"
+          label="Obțineți biletul"
           color="white"
           trailing-icon="i-ph-arrow-right"
           size="2xs"

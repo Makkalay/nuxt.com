@@ -1,6 +1,6 @@
 <template>
   <Alert
-    title="Tip"
+    title="Sfat"
     icon="i-ph-lightbulb"
     color="green"
     class="_tip"

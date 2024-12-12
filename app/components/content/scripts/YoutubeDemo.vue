@@ -36,11 +36,11 @@ function stateChange(event) {
         size="sm"
         color="blue"
         variant="soft"
-        title="Click to load"
-        description="Clicking the video will load the YouTube iframe and start the video."
+        title="Faceți clic pentru a încărca"
+        description="Făcând clic pe videoclip va încărca iFrame YouTube și va începe videoclipul."
       />
       <UButton v-if="isLoaded && !isPlaying" @click="play">
-        Play Video
+        Redați videoclipuri
       </UButton>
     </div>
   </div>

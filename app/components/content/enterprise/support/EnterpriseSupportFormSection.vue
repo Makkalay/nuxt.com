@@ -65,11 +65,11 @@ async function onSubmit(event: FormSubmitEvent<any>) {
       state.email = ''
       state.body = ''
       showTurnstile.value = false
-      toast.add({ title: 'Email sent', description: 'We will do everything possible to respond to you as quickly as possible', color: 'green' })
+      toast.add({ title: 'E-mail trimis', description: 'Vom face tot posibilul pentru a vă răspunde cât mai rapid', color: 'green' })
     })
     .catch((e) => {
-      const description = e.data?.message || 'Something went wrong. Please try again later.'
-      toast.add({ title: 'Email sending failed', description, color: 'red' })
+      const description = e.data?.message || 'Ceva nu a mers bine. Vă rugăm să încercați din nou mai târziu.'
+      toast.add({ title: 'Trimiterea prin e-mail a eșuat', description, color: 'red' })
     })
     .finally(() => {
       loading.value = false

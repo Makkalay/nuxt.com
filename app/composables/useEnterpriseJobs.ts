@@ -8,11 +8,11 @@ export const useEnterpriseJobs = () => {
   const mapRemote = (remoteType: string) => {
     switch (remoteType) {
       case 'ONLY':
-        return 'Remote Only'
+        return 'Numai la distanță'
       case 'ALLOWED':
-        return 'Remote Allowed'
+        return 'Remote permis'
       default:
-        return 'Onsite'
+        return 'Pe loc'
     }
   }
 

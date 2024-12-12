@@ -1,14 +1,14 @@
-navigation.title: Modules
-title: Nuxt Modules
-description: Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.
+navigation.title: Module
+title: Module Nuxt
+description: Descoperiți lista noastră de module pentru a vă supraîncărca proiectul Nuxt. Create de echipa și comunitatea Nuxt.
 navigation.icon: i-ph-puzzle-piece
 align: center
 links:
-  - label: 'Create a Nuxt module'
+  - label: 'Creați un modul Nuxt'
     to: '/docs/guide/going-further/modules'
     color: black
     size: sm
-  - label: 'List a module'
+  - label: 'Enumerați modulele'
     to: 'https://github.com/nuxt/modules#addupdate-a-module'
     target: '_blank'
     color: gray

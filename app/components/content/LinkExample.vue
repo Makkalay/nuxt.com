@@ -1,6 +1,6 @@
 <template>
   <Callout icon="i-ph-app-window">
-    Read and edit a live example in
+    Citiți și editați un exemplu live în
     <NuxtLink :to="to">
       {{ computedTitle }}
     </NuxtLink>.

@@ -19,8 +19,8 @@ const { data: page } = await useAsyncData('index', () => queryContent('/').findO
 const videoModalOpen = ref(false)
 
 const site = useSiteConfig()
-const title = 'Nuxt: The Intuitive Vue Framework'
-const description = 'Nuxt is an open source framework that makes web development intuitive and powerful. Create performant and production-grade full-stack web apps and websites with confidence.'
+const title = 'Nuxt: Cadrul intuitiv de dezvoltare Vue'
+const description = 'Nuxt este un cadru de dezvoltare open source care face ca dezvoltarea web să fie intuitivă și puternică. Creați cu încredere aplicații web de calitate.'
 useSeoMeta({
   title,
   ogTitle: title,
@@ -56,28 +56,29 @@ useSeoMeta({
       </template>
 
       <template #title>
-        The Intuitive<br><span class="text-primary block lg:inline-block">Vue Framework</span>
+        Intuitivul<br><span class="text-primary block lg:inline-block">Cadru de dezvoltare Vue</span>
       </template>
 
       <template #description>
-        Nuxt is an
+        Nuxt este un
         <NuxtLink
           to="https://go.nuxt.com/github"
           target="_blank"
           class="font-medium hover:underline underline-offset-2"
         >
-          open source framework
-        </NuxtLink> that makes web development intuitive and powerful.<br>Create performant and production-grade full-stack web apps and websites with confidence.
+          cadru de dezvoltare open source
+        </NuxtLink> 
+        lucru care face ca dezvoltarea web să fie intuitivă și puternică. <br> Creați cu încredere aplicații web de calitate.
       </template>
 
       <template #links>
         <div class="flex flex-col gap-4">
           <div class="flex items-center gap-2">
             <UButton to="/docs/getting-started/installation" trailing-icon="i-ph-arrow-right" size="lg">
-              Get Started
+              Începeți
             </UButton>
             <UButton size="lg" color="gray" variant="ghost" trailing-icon="i-ph-play-circle" @click="videoModalOpen = true">
-              Nuxt in 100 Seconds
+              Nuxt în 100 de secunde
             </UButton>
           </div>
           <UInputCopy value="npx nuxi@latest init " label="npx nuxi@latest init <my-app>" class="w-full" />
@@ -89,7 +90,7 @@ useSeoMeta({
               width="100%"
               height="100%"
               src="https://www.youtube-nocookie.com/embed/dCxSsr5xuL8"
-              title="Nuxt in 100 Seconds by Fireship"
+              title="Nuxt în 100 de secunde"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
@@ -105,7 +106,7 @@ useSeoMeta({
         height="256"
         class="mx-auto lg:my-16"
         src="/uwu.png"
-        alt="Nuxt Logo in uwu style"
+        alt="Logo-ul Nuxt în stil uwu"
       />
     </ULandingHero>
 

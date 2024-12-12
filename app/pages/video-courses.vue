@@ -59,7 +59,7 @@ defineOgImageComponent('Docs')
             />
             <UBadge
               v-else
-              label="Free"
+              label="Gratuit"
               color="blue"
               variant="subtle"
               size="xs"
@@ -73,7 +73,7 @@ defineOgImageComponent('Docs')
               size="2xs"
               color="green"
             >
-              Discover course
+              Descoperiți cursul
             </UButton>
             <UButton
               v-else
@@ -85,7 +85,7 @@ defineOgImageComponent('Docs')
               size="2xs"
               color="gray"
             >
-              Discover course
+              Descoperiți cursul
             </UButton>
           </li>
         </ul>

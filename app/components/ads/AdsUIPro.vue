@@ -26,7 +26,7 @@
       </svg>
     </div>
     <p class="text-xs dark:text-gray-400 text-gray-500 pb-1">
-      Premium Vue Components for Nuxt applications.
+      Componente premium Vue pentru aplicații Nuxt.
     </p>
   </UPageCard>
 </template>
